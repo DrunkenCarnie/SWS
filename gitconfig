@@ -1,0 +1,5 @@
+[filter "openssl"]
+    unclassified = ~/.gitscripts/decrypt_filter_openssl
+    classified = ~/.gitscripts/encrypt_filter_openssl
+[diff "openssl"]
+    textconv = ~/.gitscripts/diff_filter_openssl
