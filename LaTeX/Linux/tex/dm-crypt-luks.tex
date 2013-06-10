@@ -1,0 +1,17 @@
+% Copyright © 2013 Edward O'Callaghan. All Rights Reserved.
+
+\section{Full system encryption on Arch Linux} % (fold)
+\label{sec:dm-crypt}
+
+\subsection{Initial Setup}
+
+Routine creation of an encrypted system follows these general steps:
+\begin{itemize}
+	\item Secure erasure of the hard disks.
+	\item Partitioning and setup of encryption - LVM optional.
+	\item Routine package selection and installation.
+	\item System Configuration.
+\end{itemize}
+
+It is recommended to wipe all data accesible on your drive or partition using random data. Random data should be completely indistinguishable from all data later written by dm-crypt for security reasons. Secure erasure of the hard disk drive involves overwriting the entire drive with random data.
+Both new and used disks should be securely overwritten. This helps ensure the privacy of data located within the encrypted partitions. The contents of disks purchased directly from a manufacturer is not guaranteed. If the drive was filled with zero bits then after writing encrypted data, it is relatively simple to identify where the encrypted data ends and the zeroed data begins. Since an encrypted partition should be indistinguishable from random data, the lack of random data on a zeroed drive makes the encrypted data an easier target of cryptanalysis.
