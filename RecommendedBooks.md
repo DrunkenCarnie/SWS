@@ -10,3 +10,4 @@ Recommended Books
  * ISBN-13: 978-0201882957 - Haskell: The Craft of Functional Programming (3rd Edition).
  * ISBN-13: 978-0262033848 - Introduction to Algorithms.
  * ISBN-13: 978-1107013926 - Mathematics of Public Key Cryptography.
+ * ISBN-13: 978-0321842688 - Hacker's Delight (2nd Edition).
